@@ -1,0 +1,84 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<title>Bootstrap Exmaple</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/styles.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.0.min.js" integrity="sha256-JAW99MJVpJBGcbzEuXk4Az05s/XyDdBomFqNlM3ic+I=" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+<nav class="navbar navbar-default">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#">Orzana</a>
+        </div>
+        <ul class="nav navbar-nav">
+            <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#">User Name
+                    <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    <li><a href="#">Poop</a></li>
+                    <li><a href="#">Poop</a></li>
+                    <li><a href="#">Poop</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Home</a></li>
+        </ul>
+    </div>
+</nav>
+
+<div class="jumbotron text-center">
+    <h1>My first bootstrap page</h1>
+    <p>Resize to see the responsive effect</p>
+</div>
+
+<div class="container"> <!-- How do you put this in the center of the page? -->
+    <div class="row">
+        <ul class="pagination pagination-lg">
+            <li><a href="#">Pre Lab</a></li>
+            <li><a href="#">Introduction</a></li>
+            <li class="active"><a href="#">Procedure</a></li>
+            <li><a href="#">Results</a></li>
+            <li><a href="#">Discussion</a></li>
+        </ul>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-sm-6">
+            <h2>Lab Protocol</h2>
+            <table class="table table-hover" id="table">
+                <tbody>
+                    <tr class='grab'>
+                        <td>Step 1</td>
+                        <td>Add some sauce to the reaction</td>
+                    </tr>
+                    <tr class='grab'>
+                        <td>Step 2</td>
+                        <td>Add some more sauce to the reaction</td>
+                    </tr>
+                    <tr class='grab'>
+                        <td>Step 3</td>
+                        <td>Smoke a joint</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="col-sm-6">
+            <h2>Observations</h2>
+            <div class="well well-sm">This is my observation</div>
+        </div>
+
+    </div>
+</div>
+</body>
+<!-- this is the javascript problem... -->
+<script src="js/dragAndDrop1.js"></script>
+</html>
+

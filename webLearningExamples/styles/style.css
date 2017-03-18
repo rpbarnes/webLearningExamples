@@ -1,0 +1,49 @@
+h1 {
+    color: blue;
+    background-color: yellow;
+    border: 1px dashed black;
+}
+
+p {
+    color: red;
+}
+
+span {
+    border: 1px dashed black;
+    background-color: lime;
+}
+p {
+    text-decoration: underline;
+}
+
+/* You can use classes in html code to select specific targets to style  like so below */
+.first {
+    font-weight: bold;
+}
+
+.done {
+    text-decoration: line-through;
+}
+/* you can also use id selectors to labels specific things like so */
+#rude {
+    font-family: monospace;
+    text-transform: uppercase;
+}
+
+/* we can also handle user actions like highlighting a link when they hover or click */
+a {
+    color: blue;
+    font-weight: bold;
+}
+
+a:visited {
+    color: blue;
+}
+
+a:hover,
+a:active,
+a:focus {
+    color: darkred;
+    text-decoration: underline;
+}
+
